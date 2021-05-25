@@ -49,3 +49,19 @@ VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085
 
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
+
+# Official MSM-Xtended
+XTENDED_BUILD_TYPE := OFFICIAL
+
+#Maintainer
+XTENDED_BUILD_MAINTAINER := Ashwatthama
+
+#Remove unwanted G-APPS packages
+REMOVE_GAPPS_PACKAGES += \
+	Chrome \
+	Drive \
+	FilesPrebuilt \
+	Photos \
+	RecorderPrebuilt \
+	GoogleDialer \
+	Velvet
