@@ -55,13 +55,3 @@ XTENDED_BUILD_TYPE := OFFICIAL
 
 #Maintainer
 XTENDED_BUILD_MAINTAINER := Ashwatthama
-
-#Remove unwanted G-APPS packages
-REMOVE_GAPPS_PACKAGES += \
-	Chrome \
-	Drive \
-	FilesPrebuilt \
-	Photos \
-	RecorderPrebuilt \
-	GoogleDialer \
-	Velvet
